@@ -14,7 +14,7 @@ import copy
 import matplotlib.pyplot as plt
 
 #Change tsp file name to run on separate tsp datasets
-data = tsplib95.load('pr107.tsp')
+data = tsplib95.load('data/pr107.tsp')
 cities = list(data.get_nodes())
 
 
